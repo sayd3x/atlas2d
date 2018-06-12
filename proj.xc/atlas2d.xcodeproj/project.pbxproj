@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D3B24921F97A24A00DF983C /* pixel_converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5E941F7BF9650008CC5A /* pixel_converter.cpp */; };
+		9D3B24941F97A24A00DF983C /* pixel_format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5E9B1F7BF9650008CC5A /* pixel_format.cpp */; };
+		9D3B24951F97A24A00DF983C /* raw_pixel_area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5EB01F829C4C0008CC5A /* raw_pixel_area.cpp */; };
+		9D3B24961F97A24A00DF983C /* raw_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5EB21F83A3930008CC5A /* raw_image.cpp */; };
+		9DDF5E9D1F7BF9650008CC5A /* pixel_converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5E941F7BF9650008CC5A /* pixel_converter.cpp */; };
+		9DDF5E9E1F7BF9650008CC5A /* forwards.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF5E951F7BF9650008CC5A /* forwards.hpp */; };
+		9DDF5EA21F7BF9650008CC5A /* raw_image.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF5E991F7BF9650008CC5A /* raw_image.hpp */; };
+		9DDF5EA31F7BF9650008CC5A /* pixel_converter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF5E9A1F7BF9650008CC5A /* pixel_converter.hpp */; };
+		9DDF5EA41F7BF9650008CC5A /* pixel_format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5E9B1F7BF9650008CC5A /* pixel_format.cpp */; };
+		9DDF5EA51F7BF9650008CC5A /* image.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF5E9C1F7BF9650008CC5A /* image.hpp */; };
+		9DDF5EB11F829C4C0008CC5A /* raw_pixel_area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5EB01F829C4C0008CC5A /* raw_pixel_area.cpp */; };
+		9DDF5EB41F83A3930008CC5A /* raw_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF5EB21F83A3930008CC5A /* raw_image.cpp */; };
+		9DDF5EBB1F853ADE0008CC5A /* pixel_format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF5EBA1F853ADE0008CC5A /* pixel_format.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D3B24851F97A21B00DF983C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D3B24871F97A21B00DF983C /* libatlas2d_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libatlas2d_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D72F81F1FD7408600193BCA /* raw_pixel_area.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = raw_pixel_area.hpp; path = ../atlas2d/raw_pixel_area.hpp; sourceTree = "<group>"; };
+		9DDF5E851F7BF8A80008CC5A /* libatlas2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libatlas2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDF5E941F7BF9650008CC5A /* pixel_converter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pixel_converter.cpp; path = ../atlas2d/pixel_converter.cpp; sourceTree = "<group>"; };
+		9DDF5E951F7BF9650008CC5A /* forwards.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = forwards.hpp; path = ../atlas2d/forwards.hpp; sourceTree = "<group>"; };
+		9DDF5E991F7BF9650008CC5A /* raw_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = raw_image.hpp; path = ../atlas2d/raw_image.hpp; sourceTree = "<group>"; };
+		9DDF5E9A1F7BF9650008CC5A /* pixel_converter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pixel_converter.hpp; path = ../atlas2d/pixel_converter.hpp; sourceTree = "<group>"; };
+		9DDF5E9B1F7BF9650008CC5A /* pixel_format.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pixel_format.cpp; path = ../atlas2d/pixel_format.cpp; sourceTree = "<group>"; };
+		9DDF5E9C1F7BF9650008CC5A /* image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = image.hpp; path = ../atlas2d/image.hpp; sourceTree = "<group>"; };
+		9DDF5EB01F829C4C0008CC5A /* raw_pixel_area.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = raw_pixel_area.cpp; path = ../atlas2d/raw_pixel_area.cpp; sourceTree = "<group>"; };
+		9DDF5EB21F83A3930008CC5A /* raw_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = raw_image.cpp; path = ../atlas2d/raw_image.cpp; sourceTree = "<group>"; };
+		9DDF5EBA1F853ADE0008CC5A /* pixel_format.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pixel_format.hpp; path = ../atlas2d/pixel_format.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3B24841F97A21B00DF983C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDF5E821F7BF8A80008CC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DDF5E7C1F7BF8A80008CC5A = {
+			isa = PBXGroup;
+			children = (
+				9DDF5E931F7BF9490008CC5A /* src */,
+				9DDF5E861F7BF8A80008CC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DDF5E861F7BF8A80008CC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DDF5E851F7BF8A80008CC5A /* libatlas2d.a */,
+				9D3B24871F97A21B00DF983C /* libatlas2d_ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DDF5E931F7BF9490008CC5A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9DDF5EBA1F853ADE0008CC5A /* pixel_format.hpp */,
+				9DDF5E9C1F7BF9650008CC5A /* image.hpp */,
+				9DDF5E951F7BF9650008CC5A /* forwards.hpp */,
+				9DDF5E941F7BF9650008CC5A /* pixel_converter.cpp */,
+				9DDF5E9A1F7BF9650008CC5A /* pixel_converter.hpp */,
+				9DDF5E9B1F7BF9650008CC5A /* pixel_format.cpp */,
+				9DDF5E991F7BF9650008CC5A /* raw_image.hpp */,
+				9DDF5EB21F83A3930008CC5A /* raw_image.cpp */,
+				9DDF5EB01F829C4C0008CC5A /* raw_pixel_area.cpp */,
+				9D72F81F1FD7408600193BCA /* raw_pixel_area.hpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DDF5E831F7BF8A80008CC5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDF5EA51F7BF9650008CC5A /* image.hpp in Headers */,
+				9DDF5EBB1F853ADE0008CC5A /* pixel_format.hpp in Headers */,
+				9DDF5EA31F7BF9650008CC5A /* pixel_converter.hpp in Headers */,
+				9DDF5E9E1F7BF9650008CC5A /* forwards.hpp in Headers */,
+				9DDF5EA21F7BF9650008CC5A /* raw_image.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D3B24861F97A21B00DF983C /* atlas2d_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3B248D1F97A21B00DF983C /* Build configuration list for PBXNativeTarget "atlas2d_ios" */;
+			buildPhases = (
+				9D3B24831F97A21B00DF983C /* Sources */,
+				9D3B24841F97A21B00DF983C /* Frameworks */,
+				9D3B24851F97A21B00DF983C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atlas2d_ios;
+			productName = atlas2d_ios;
+			productReference = 9D3B24871F97A21B00DF983C /* libatlas2d_ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DDF5E841F7BF8A80008CC5A /* atlas2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DDF5E901F7BF8A80008CC5A /* Build configuration list for PBXNativeTarget "atlas2d" */;
+			buildPhases = (
+				9DDF5E811F7BF8A80008CC5A /* Sources */,
+				9DDF5E821F7BF8A80008CC5A /* Frameworks */,
+				9DDF5E831F7BF8A80008CC5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atlas2d;
+			productName = atlas2d;
+			productReference = 9DDF5E851F7BF8A80008CC5A /* libatlas2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DDF5E7D1F7BF8A80008CC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					9D3B24861F97A21B00DF983C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9DDF5E841F7BF8A80008CC5A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DDF5E801F7BF8A80008CC5A /* Build configuration list for PBXProject "atlas2d" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DDF5E7C1F7BF8A80008CC5A;
+			productRefGroup = 9DDF5E861F7BF8A80008CC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DDF5E841F7BF8A80008CC5A /* atlas2d */,
+				9D3B24861F97A21B00DF983C /* atlas2d_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3B24831F97A21B00DF983C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B24961F97A24A00DF983C /* raw_image.cpp in Sources */,
+				9D3B24921F97A24A00DF983C /* pixel_converter.cpp in Sources */,
+				9D3B24951F97A24A00DF983C /* raw_pixel_area.cpp in Sources */,
+				9D3B24941F97A24A00DF983C /* pixel_format.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDF5E811F7BF8A80008CC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDF5EB41F83A3930008CC5A /* raw_image.cpp in Sources */,
+				9DDF5E9D1F7BF9650008CC5A /* pixel_converter.cpp in Sources */,
+				9DDF5EA41F7BF9650008CC5A /* pixel_format.cpp in Sources */,
+				9DDF5EB11F829C4C0008CC5A /* raw_pixel_area.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D3B247F1F97A17E00DF983C /* LiveDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WSROOT = "$(SRCROOT)/../../..";
+			};
+			name = LiveDebug;
+		};
+		9D3B24801F97A17E00DF983C /* LiveDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = LiveDebug;
+		};
+		9D3B24811F97A18600DF983C /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WSROOT = "$(SRCROOT)/../../..";
+			};
+			name = Live;
+		};
+		9D3B24821F97A18600DF983C /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Live;
+		};
+		9D3B248E1F97A21B00DF983C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D3B248F1F97A21B00DF983C /* LiveDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = LiveDebug;
+		};
+		9D3B24901F97A21B00DF983C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3B24911F97A21B00DF983C /* Live */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Live;
+		};
+		9DDF5E8E1F7BF8A80008CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WSROOT = "$(SRCROOT)/../../..";
+			};
+			name = Debug;
+		};
+		9DDF5E8F1F7BF8A80008CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WSROOT = "$(SRCROOT)/../../..";
+			};
+			name = Release;
+		};
+		9DDF5E911F7BF8A80008CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DDF5E921F7BF8A80008CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3B248D1F97A21B00DF983C /* Build configuration list for PBXNativeTarget "atlas2d_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3B248E1F97A21B00DF983C /* Debug */,
+				9D3B248F1F97A21B00DF983C /* LiveDebug */,
+				9D3B24901F97A21B00DF983C /* Release */,
+				9D3B24911F97A21B00DF983C /* Live */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDF5E801F7BF8A80008CC5A /* Build configuration list for PBXProject "atlas2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDF5E8E1F7BF8A80008CC5A /* Debug */,
+				9D3B247F1F97A17E00DF983C /* LiveDebug */,
+				9DDF5E8F1F7BF8A80008CC5A /* Release */,
+				9D3B24811F97A18600DF983C /* Live */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDF5E901F7BF8A80008CC5A /* Build configuration list for PBXNativeTarget "atlas2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDF5E911F7BF8A80008CC5A /* Debug */,
+				9D3B24801F97A17E00DF983C /* LiveDebug */,
+				9DDF5E921F7BF8A80008CC5A /* Release */,
+				9D3B24821F97A18600DF983C /* Live */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DDF5E7D1F7BF8A80008CC5A /* Project object */;
+}

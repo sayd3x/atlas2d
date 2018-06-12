@@ -1,1 +1,5 @@
 **/.DS_Store
+**/*.xcuserdatad
+proj.win32/Debug
+proj.win32/Release
+**/*.vcxproj.user

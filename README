@@ -1,0 +1,3 @@
+libAtlas2d.
+
+The library is the shared part of the Atlas Mapper Tool and it's aimed to sumplify building of an atlas from its mapped representation. It also supports conversion to several pixel format on the fly to compact the image itself in memory.
